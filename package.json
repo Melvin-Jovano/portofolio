@@ -11,8 +11,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "flowbite": "^1.6.2",
     "pinia": "^2.0.28",
+    "tw-elements": "^1.0.0-alpha13",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
