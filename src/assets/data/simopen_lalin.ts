@@ -12,7 +12,7 @@ const simopenLalin = {
         'AWS S3'
     ],
     title: 'Simopen Lalin (Sistem Monitoring Pengatur Lalu Lintas)',
-    description: 'A mobile and web app to track users location by given time range. It also has reporting features with data visualization such as graph, excel and table.',
+    description: 'A mobile and web app to track your users location by given time range. It also has reporting features with data visualization such as graph, excel and table.',
     carousel: [
         {
             url: '/src/assets/img/simopen-lalin/web-1.png',

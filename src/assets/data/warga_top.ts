@@ -9,7 +9,7 @@ const wargaTop = {
         'AWS S3'
     ],
     title: 'Warga Top',
-    description: 'A mobile and web app that keeps you connected in the community. Various useful features for individuals and communities in managing organizations.',
+    description: 'A mobile and web app that keeps you connected in your community. Various useful features for individuals and communities in managing organizations.',
     carousel: [
         {
             url: '/src/assets/img/warga-top/web-1.png',
