@@ -18,10 +18,12 @@
                 <img
                     :src="i.url"
                     :class="`${i.type === 'potrait' ? 'w-48 mx-auto' : 'block w-full'}`"
-                    alt="Motorbike Smoke"
+                    :alt="i.alt"
                 />
                 <div class="carousel-caption hidden md:block absolute text-center">
-                    <p class="italic text-xs">{{ i.alt }}</p>
+                    <span class="bg-slate-200 shadow-xl italic px-2 py-1 text-xs text-gray-900">
+                        {{ i.alt }}
+                    </span>
                 </div>
             </div>
         </div>

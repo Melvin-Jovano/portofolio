@@ -15,18 +15,18 @@ const simopenLalin = {
     description: 'A mobile and web app to track your users location by given time range. It also has reporting features with data visualization such as graph, excel and table.',
     carousel: [
         {
-            url: '/src/assets/img/simopen-lalin/web-1.png',
-            alt: 'Map Web Page',
+            url: './img/simopen-lalin/web-1.png',
+            alt: 'Map',
             type: 'landscape'
         },
         {
-            url: '/src/assets/img/simopen-lalin/mobile-2.jpg',
-            alt: 'Home Mobile Page',
+            url: './img/simopen-lalin/mobile-2.jpg',
+            alt: 'Home',
             type: 'potrait'
         },
         {
-            url: '/src/assets/img/simopen-lalin/mobile-1.jpg',
-            alt: 'My Schedule Mobile Page',
+            url: './img/simopen-lalin/mobile-1.jpg',
+            alt: 'My Schedule',
             type: 'potrait'
         }
     ]

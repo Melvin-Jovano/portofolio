@@ -27,7 +27,7 @@
                         type="button"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
-                        class="inline-block px-3 py-2 bg-teal-600 text-white text-xs leading-none rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                        class="inline-block px-3 py-2 bg-teal-600 text-white text-xs leading-none rounded shadow-md hover:bg-teal-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                     >{{ p }}</button>
                 </div>
             </div>

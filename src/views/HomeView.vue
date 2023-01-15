@@ -1,5 +1,7 @@
 <template>
-  <Card v-for="(card, idx) in cards" :position="card.position" :title="card.title" :technology="card.technology" :description="card.description" :carousel="card.carousel" :id="card.id" :key="card.id" />
+  <div class="bg-teal-700">
+    <Card v-for="card in cards" :position="card.position" :title="card.title" :technology="card.technology" :description="card.description" :carousel="card.carousel" :id="card.id" :key="card.id" />
+  </div>
 </template>
 
 <script setup lang="ts">

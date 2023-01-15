@@ -12,18 +12,18 @@ const wargaTop = {
     description: 'A mobile and web app that keeps you connected in your community. Various useful features for individuals and communities in managing organizations.',
     carousel: [
         {
-            url: '/src/assets/img/warga-top/web-1.png',
-            alt: 'Dashboard Web Page',
+            url: './img/warga-top/web-1.png',
+            alt: 'Dashboard',
             type: 'landscape'
         },
         {
-            url: '/src/assets/img/warga-top/mobile-1.png',
-            alt: 'My Organization Mobile Page',
+            url: './img/warga-top/mobile-1.png',
+            alt: 'My Organizations',
             type: 'potrait'
         },
         {
-            url: '/src/assets/img/warga-top/mobile-2.png',
-            alt: 'Confirm Payment Mobile Page',
+            url: './img/warga-top/mobile-2.png',
+            alt: 'Confirm Payments',
             type: 'potrait'
         }
     ]
