@@ -21,7 +21,7 @@
             </p>
 
             <div class="mt-5">
-                <p class="font-medium mb-2">My Position:</p>
+                <p class="font-medium mb-2">My Role:</p>
                 <div class="flex space-x-2 justify-left">
                     <button v-for="p in props.position"
                         type="button"

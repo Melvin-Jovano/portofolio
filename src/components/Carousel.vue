@@ -20,7 +20,7 @@
                 />
                 <div class="carousel-caption hidden md:block absolute text-center">
                     <span class="bg-slate-200 shadow-xl italic px-2 py-1 text-xs text-gray-900">
-                        {{ i.alt }} {{ props.active }}
+                        {{ i.alt }}
                     </span>
                 </div>
             </div>
