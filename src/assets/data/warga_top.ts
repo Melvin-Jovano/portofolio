@@ -9,7 +9,7 @@ const wargaTop = {
         'AWS S3'
     ],
     title: 'Warga Top',
-    description: 'A mobile and web app that keeps you connected in your community. Various useful features for individuals and communities in managing organizations.',
+    description: "Your ultimate mobile and web app for fostering strong community connections and effective organization management. Whether you're an individual looking to engage with your neighbors or a community leader aiming to streamline group activities, This app offers a comprehensive platform designed to enhance community cohesion and collaboration.",
     carousel: [
         {
             url: './img/warga-top/web-1.png',

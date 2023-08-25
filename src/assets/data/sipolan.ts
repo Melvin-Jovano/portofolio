@@ -6,8 +6,8 @@ const sipolan = {
     technology: [
         'Laravel'
     ],
-    title: 'Sipolan (Aplikasi Realisasi Anggaran)',
-    description: 'Application used to manage budget realization which includes budget spending transaction data to generate budget realization reports.',
+    title: 'Sipolan (Sistem Informasi Realisasi Anggaran)',
+    description: "This app simplifies the complex process of budget management by providing a user-friendly platform to input and track spending transactions. Users can effortlessly record expenses, allocate funds to various categories, and monitor expenditures in real-time.",
     carousel: [
         {
             url: './img/sipolan/web-1.png',
