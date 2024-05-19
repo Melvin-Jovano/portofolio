@@ -1,11 +1,13 @@
+import officeAddin from "./office_addin";
+import rbac from "./rbac";
 import simopenLalin from "./simopen_lalin";
 import simpulpju from "./simpulpju";
-import sipolan from "./sipolan";
 import wargaTop from "./warga_top";
 
 const cards = [
+    rbac,
+    officeAddin,
     simpulpju,
-    sipolan,
     simopenLalin,
     wargaTop
 ];

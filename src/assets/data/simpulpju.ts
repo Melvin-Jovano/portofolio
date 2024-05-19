@@ -1,7 +1,7 @@
 const simpulpju = {
     id: 'simpulpju',
     position: [
-        'Fullstack Developer',
+        'Software Engineer',
     ],
     technology: [
         'Flutter',
