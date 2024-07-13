@@ -1,4 +1,4 @@
-const links = {
+const links: { [key: string]: string } = {
     'ReactJS': 'https://react.dev/',
     'ASP.NET Core': 'https://dotnet.microsoft.com/en-us/apps/aspnet',
     'Office.js': 'https://github.com/OfficeDev/office-js',
