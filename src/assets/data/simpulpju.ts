@@ -1,18 +1,17 @@
 const simpulpju = {
     id: 'simpulpju',
     position: [
-        'Backend Developer',
-        'Mobile Developer',
+        'Software Engineer',
     ],
     technology: [
         'Flutter',
         'NestJS',
-        'Vue.js',
+        'VueJS',
         'Firebase',
         'AWS S3',
     ],
-    title: 'Simpulpju (Aplikasi Lapor Lampu Lalu Lintas)',
-    description: 'An app that allows you to send a report of broken or unfunctional traffic light.',
+    title: 'Lapor Lampu Pak',
+    description: "Simplify the process of reporting broken or malfunctioning traffic lights with this app. Designed for ease of use, this app allows citizens to swiftly alert local authorities about traffic signal issues. By using this app, you can help enhance road safety in your community, ensuring that critical traffic infrastructure receives prompt and efficient attention. Be a proactive participant in maintaining safe and well-functioning roads for everyone.",
     carousel: [
         {
             url: './img/simpulpju/mobile-1.png',
