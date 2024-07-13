@@ -4,8 +4,9 @@ const wargaTop = {
         'Fullstack Developer',
     ],
     technology: [
-        'Node.js', 
-        'Vue.js',
+        'ExpressJS', 
+        'NodeJS', 
+        'VueJS',
         'AWS S3'
     ],
     title: 'Warga Top',

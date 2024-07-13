@@ -1,16 +1,16 @@
 const rbac = {
     id: 'rbac',
     position: [
-        'Software Developer',
+        'Software Engineer',
     ],
     technology: [
-        'React.js', 
+        'ReactJS', 
         'ASP.NET Core', 
         'OpenText Content Server',
         'OpenText Directory Service',
     ],
     title: 'RBAC (Role Based Access Control)',
-    description: 'With this app, tracking user locations becomes a breeze. this app offers a seamless solution for businesses, individuals, and organizations to effortlessly monitor user locations within specified time ranges, while also providing advanced reporting features complete with dynamic data visualizations, interactive graphs, downloadable Excel sheets, and comprehensive tables.',
+    description: 'An all-in-one management solution integrated with OpenText Directory Services (OTDS) and OpenText Content Server (OTCS). Designed for organizations looking to streamline and enhance their license management, agency administration, and EPFile handling. Access a centralized dashboard with intuitive navigation and comprehensive tools, designed to provide a seamless user experience for administrators and managers.',
     carousel: [
         {
             url: './img/rbac/system-admin-dashboard.png',
