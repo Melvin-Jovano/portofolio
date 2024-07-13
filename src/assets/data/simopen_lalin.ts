@@ -6,13 +6,13 @@ const simopenLalin = {
     ],
     technology: [
         'Flutter', 
-        'Node.js', 
-        'Vue.js',
+        'NodeJS', 
+        'VueJS',
         'Firebase',
         'AWS S3'
     ],
     title: 'Simopen Lalin (Sistem Monitoring Pengatur Lalu Lintas)',
-    description: 'With this app, tracking user locations becomes a breeze. this app offers a seamless solution for businesses, individuals, and organizations to effortlessly monitor user locations within specified time ranges, while also providing advanced reporting features complete with dynamic data visualizations, interactive graphs, downloadable Excel sheets, and comprehensive tables.',
+    description: 'Effortlessly monitor user locations with this intuitive app. Ideal for businesses, individuals, and organizations, this app provides a streamlined solution for tracking user movements within defined time frames. Enjoy advanced reporting capabilities, including dynamic data visualizations, interactive graphs, downloadable Excel sheets, and detailed tables, making location tracking and analysis simpler and more insightful than ever.',
     carousel: [
         {
             url: './img/simopen-lalin/web-1.png',

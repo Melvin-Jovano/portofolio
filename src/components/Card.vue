@@ -11,9 +11,9 @@
             </h2>
             
             <p class="flex space-x-2 justify-left mt-4">
-                <span v-for="t in props.technology" class="text-xs inline-block py-1 px-2.5 leading-none text-center italic whitespace-nowrap align-baseline bg-teal-600 text-white rounded-full">
+                <a target="_blank" :href="techLinks[t]" v-for="t in props.technology" class="text-xs inline-block py-1 px-2.5 leading-none text-center italic whitespace-nowrap align-baseline hover:bg-teal-700 bg-teal-600 text-white rounded-full">
                     {{ t }}
-                </span>
+                </a>
             </p>
 
             <p class="mt-5 italic max-h-32 overflow-auto">
@@ -23,12 +23,11 @@
             <div class="mt-5">
                 <p class="font-medium mb-2">My Role:</p>
                 <div class="flex space-x-2 justify-left">
-                    <button v-for="p in props.position"
-                        type="button"
+                    <span v-for="p in props.position"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
-                        class="inline-block px-3 py-2 bg-teal-600 text-white text-xs leading-none rounded shadow-md hover:bg-teal-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                    >{{ p }}</button>
+                        class="inline-block px-3 py-2 bg-teal-600 text-white text-xs leading-none rounded transition duration-150 ease-in-out"
+                    >{{ p }}</span>
                 </div>
             </div>
         </div>
@@ -37,9 +36,12 @@
 </template>
 
 <script setup lang="ts">
-    import type { PropType } from 'vue';
+    import { ref, type PropType } from 'vue';
     import Carousel from '../components/Carousel.vue';
     import type { ICarousel } from '@/interfaces/ICarousel';
+    import links from "../common/links";
+
+    const techLinks = ref(links);
 
     const props = defineProps({
         id: {
