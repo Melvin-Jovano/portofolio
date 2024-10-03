@@ -42,7 +42,7 @@
     import Carousel from '../components/Carousel.vue';
     import type { ICarousel } from '@/interfaces/ICarousel';
     import links from "../common/links";
-    import HyperLinks from './HyperLinks.vue';
+    import HyperLinks from '../components/HyperLinks.vue';
     import type { IHyperLink } from "@/interfaces/IHyperLink";
 
     const techLinks = ref(links);
