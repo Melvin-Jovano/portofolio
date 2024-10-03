@@ -3,6 +3,7 @@ const wargaTop = {
     position: [
         'Fullstack Developer',
     ],
+    hyperlinks: [],
     technology: [
         'ExpressJS', 
         'NodeJS', 
