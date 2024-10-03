@@ -3,6 +3,7 @@ const rbac = {
     position: [
         'Software Engineer',
     ],
+    hyperlinks: [],
     technology: [
         'ReactJS', 
         'ASP.NET Core', 

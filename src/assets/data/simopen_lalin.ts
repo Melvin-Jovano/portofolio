@@ -4,6 +4,7 @@ const simopenLalin = {
         'Software Engineer',
         'Project Manager'
     ],
+    hyperlinks: [],
     technology: [
         'Flutter', 
         'NodeJS', 
