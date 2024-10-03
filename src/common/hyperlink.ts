@@ -5,7 +5,7 @@ export default function hyperlinks(type: string, {
     url,
 }: {
     url: string,
-}): IHyperLink | null {
+}): IHyperLink {
     if(type == 'playstore') {
         return {
             img: PlayStoreImg,
@@ -14,5 +14,10 @@ export default function hyperlinks(type: string, {
         }
     }
 
-    return null;
+    // Default to PlayStore
+    return {
+        img: PlayStoreImg,
+        title: 'Get It On Google Play',
+        url
+    }
 }

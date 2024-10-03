@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import type { IHyperLink } from '@/interfaces/IHyperLink';
+    import type { IHyperLink } from '@/interfaces/IHyperLink';
 
     const props = defineProps<{ 
         data: IHyperLink[]
