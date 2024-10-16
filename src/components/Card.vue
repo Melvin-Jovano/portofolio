@@ -18,9 +18,7 @@
                     </a>
                 </p>
 
-                <p class="mt-5 italic max-h-48 overflow-auto">
-                    {{ props.description }}
-                </p>
+                <p class="mt-5 italic max-h-64 overflow-auto" v-html="props.description"></p>
 
                 <div class="mt-5">
                     <p class="font-medium mb-2">My Role:</p>

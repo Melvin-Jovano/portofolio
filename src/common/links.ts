@@ -11,6 +11,7 @@ const links: { [key: string]: string } = {
     'Firebase': 'https://firebase.google.com/',
     'AWS S3': 'https://aws.amazon.com/s3/',
     'NestJS': 'https://nestjs.com/',
+    'ASP.NET Core MVC': 'https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-8.0'
 };
 
 export default links;
